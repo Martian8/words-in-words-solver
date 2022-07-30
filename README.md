@@ -1,5 +1,6 @@
 # words-in-words-solver
-Words in words is a game where a word is chosen, and using letters from the chosen word, you make new words. 
+Words in words is a game where a word is chosen, and using letters from the chosen word, you make new words
+
 for example with the word dinner
 
 I can get:
