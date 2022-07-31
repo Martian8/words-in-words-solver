@@ -33,7 +33,10 @@ for wordlength in WordList:
 Results = list(set(Results))
 
 # self remover
-Results.remove(''.join(Word))
+try:
+    Results.remove(''.join(Word))
+except:
+    0
 # Double Up letter remover
 LetterNumbers = ['' for char in Word]
 loop = 0
